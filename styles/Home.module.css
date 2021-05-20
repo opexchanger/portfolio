@@ -5,7 +5,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
 }
 
 .main {
@@ -71,15 +70,14 @@
 
 .grid {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
-  flex-wrap: wrap;
-  max-width: 800px;
+  max-width: 1000px;
   margin-top: 3rem;
+  flex-wrap: wrap;
 }
 
 .card {
-  margin: 1rem;
   padding: 1.5rem;
   text-align: left;
   color: inherit;
@@ -87,12 +85,23 @@
   border: 1px solid #eaeaea;
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
-  width: 45%;
+  width: 90%;
+  margin: 1rem auto;
 }
 
-.card:hover,
-.card:focus,
-.card:active {
+.red {
+  color: red;
+}
+
+@media (min-width: 600px) {
+  .card {
+    width: 40%;
+    max-width: 490px;
+    margin: 1rem;
+  }
+}
+
+.link {
   color: #0070f3;
   border-color: #0070f3;
 }
@@ -102,9 +111,15 @@
   font-size: 1.5rem;
 }
 
+.card h4 {
+  margin: 0.5rem 0;
+  font-size: 1.15rem;
+  line-height: 1.5;
+}
+
 .card p {
   margin: 0;
-  font-size: 1.25rem;
+  font-size: 1rem;
   line-height: 1.5;
 }
 
