@@ -93,6 +93,11 @@
   color: red;
 }
 
+.small {
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
 @media (min-width: 600px) {
   .card {
     width: 40%;

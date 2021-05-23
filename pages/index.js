@@ -20,7 +20,52 @@ export default function Home() {
 
         <div className={styles.grid}>
           <div className={styles.card}>
-            <h2>React</h2>
+            <h2>Projeto real</h2>
+            <a
+              href='https://coccamp.netlify.app'
+              target='_blank'
+              className={styles.link}
+            >
+              <h4>Site para empresa de exportação de café &rarr;</h4>
+            </a>
+            <p>Tecnologias</p>
+            <ul>
+              <li>HTML, CSS, JS</li>
+              <li>SASS</li>
+              <li>11ty com Sanity</li>
+            </ul>
+            <p>Overview</p>
+            <ul>
+              <p>
+                Site desenvolvido a partir de um layout produzido por designer,
+                que se tornou uma cópia exata do modelo proposto, completamente
+                responsivo e adicionadas as funcionalidades. Além da interface,
+                foi adicionado dinamismo ao site através de integração com o
+                11ty, um Static Site Generator (como o Gatbsy para o React)
+                simples e minimalista, e conexão à uma instância do Sanity (um
+                CMS Headless) que permite ao cliente atualizar todos os textos
+                através do painel. Deploy na Netlify.
+              </p>
+            </ul>
+            <p>
+              Repo:{' '}
+              <a
+                className={styles.link}
+                href='https://github.com/opexchanger/coccamp-monorepo'
+                target='_blank'
+              >
+                Github
+              </a>
+            </p>
+            <br />
+            <p className={styles.small}>
+              Próxima etapa: ajustes de desempenho baseados no Google Page Speed
+              e campanha de SEO.
+            </p>
+          </div>
+
+          <div className={styles.card}>
+            <h2>Projeto treino</h2>
             <a
               href='https://crwn-clothing-seven.vercel.app/'
               target='_blank'
@@ -34,55 +79,31 @@ export default function Home() {
               <li>Redux</li>
               <li>React Router</li>
             </ul>
-            <p>Review</p>
+            <p>Overview</p>
             <ul>
               <p>
                 Projeto para treino focado nas funcionalidades básicas de
-                roteamento do React, e construção de um carrinho de compras
-                utilizando Redux para manter o estado da aplicação, com reducers
-                para adicionar e remover itens do carrinho. Hoje em dia,
-                entretanto, para a maioria dos projetos, considero mais
-                eficiente o uso da Context API.
+                roteamento do React, e lógica de um carrinho de compras para
+                praticar Redux gerenciando o estado da aplicação. Em meus
+                projetos subsequentes, experimentei também com a Context API,
+                que até agora me parece uma maneira mais simples de obter o
+                mesmo efeito.
               </p>
             </ul>
-          </div>
-
-          <div className={styles.card}>
-            <h2>Web Development</h2>
-            <a
-              href='https://opexchanger.github.io/coccamp/'
-              target='_blank'
-              className={styles.link}
-            >
-              <h4>Site para empresa de exportação de café &rarr;</h4>
-            </a>
-            <p>Tecnologias</p>
-            <ul>
-              <li>HTML, CSS, JS</li>
-              <li>SASS</li>
-              <li>11ty com Sanity</li>
-            </ul>
-            <p>Review</p>
-            <ul>
-              <p>
-                Site programado a partir de um layout produzido por designer,
-                que se tornou uma cópia exata do modelo proposto, completamente
-                responsivo e adicionadas as funcionalidades. Como última etapa,
-                o site será gerado com o 11ty que permite geração de sites
-                estáticos de uma forma simples e minimalista, e também conectado
-                à uma instância do Sanity que permite ao cliente atualizar todos
-                os textos através do painel.
-              </p>
-            </ul>
-            <p className={styles.red}>
-              Em andamento. A fazer: otimização das imagens, que serão
-              convertidas para webp; integração com o CMS para tornar o conteúdo
-              dinâmico.
+            <p>
+              Repo:{' '}
+              <a
+                className={styles.link}
+                href='https://github.com/opexchanger/crwn-clothing'
+                target='_blank'
+              >
+                Github
+              </a>
             </p>
           </div>
 
           <div className={styles.card}>
-            <h2>Web Development</h2>
+            <h2>Projeto Real</h2>
             <a
               href='https://opexchanger.github.io/proa/'
               target='_blank'
@@ -96,24 +117,33 @@ export default function Home() {
               <li>SASS</li>
               <li>Next.js com Sanity</li>
             </ul>
-            <p>Review</p>
+            <p>Overview</p>
             <ul>
               <p>
-                Mais um site para cliente, este um pouco mais complexo pois
-                pretende abarcar todos os casos de uso do negócio de viagens. O
-                design foi baseado em layout, e produzido de forma adaptada
-                conforme a identidade visual da agência.
+                Mais um site para cliente, o design foi baseado em template, e
+                produzido de forma adaptada conforme a identidade visual da
+                agência. O CMS deste projeto possui mais complexidade pois
+                pretende abarcar todos os casos de uso do negócio de viagens.
               </p>
             </ul>
-            <p className={styles.red}>
-              Em andamento. A fazer: otimização das imagens, que devem vir do
-              departamento de design e no momento estão em png, serão
-              convertidas para webp.
+            <p>
+              Repo:{' '}
+              <a
+                className={styles.link}
+                href='https://github.com/opexchanger/proa'
+                target='_blank'
+              >
+                Github
+              </a>
+            </p>
+            <p className={styles.small}>
+              Em andamento. A fazer: otimização das imagens, terminar
+              modelamento do cadastro de viagens para conectar com o CMS.
             </p>
           </div>
 
           <div className={styles.card}>
-            <h2>React</h2>
+            <h2>Projeto treino</h2>
             <a
               href='https://next-blog-frontend.vercel.app/'
               target='_blank'
@@ -124,27 +154,35 @@ export default function Home() {
             <p>Tecnologias</p>
             <ul>
               <li>Next.js</li>
-              <li>Sanity (Headless CMS)</li>
+              <li>Sanity</li>
               <li>Typescript</li>
             </ul>
-            <p>Review</p>
+            <p>Overview</p>
             <ul>
               <p>
                 Projeto para aprender Next.js e treinar Typescript. Sem foco no
-                layout, as funcionalidades simples são a de através do Sanity
-                poder acessar o painel por onde atualizamos as informações e
-                postagens do blog. As estruturas de dados foram previamente
-                criadas, e utilizam o formato de dados baseados em documentos
-                que lembra um NoSql como MongoDB. Do lado do Next.js, temos a
-                incrível capacidade que o framework oferece de decidir como
-                queremos renderizar as nossas páginas, podendo escolher entre
-                estático, estático incremental ou server-side, isso para cada
-                uma delas individualmente. Especialmente o estático incremental
-                (ISR) me chama a atenção por unir os dois mundos e permitir
-                páginas dinâmicas atualizadas (quase) em tempo real com a
-                estabilidade de páginas estáticas.
+                layout, as funcionalidades são a de atualizar o blog através do
+                Sanity mantendo o front 'estático'. As estruturas de dados do
+                Sanity utilizam o formato de documentos que lembra um NoSql como
+                MongoDB. Do lado do Next.js, temos a incrível capacidade que o
+                framework oferece de decidir como queremos renderizar as nossas
+                páginas, podendo criar inclusive uma mistura entre estático,
+                estático incremental ou server-side. Especialmente o estático
+                incremental (ISR) me chama a atenção por unir os dois mundos e
+                permitir páginas dinâmicas atualizadas (quase) em tempo real com
+                a estabilidade de páginas estáticas.
               </p>
             </ul>
+            <p>
+              Repo:{' '}
+              <a
+                className={styles.link}
+                href='https://github.com/opexchanger/next-blog-frontend'
+                target='_blank'
+              >
+                Github
+              </a>
+            </p>
           </div>
         </div>
       </main>
