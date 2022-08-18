@@ -16,7 +16,7 @@ export default function ProjectsCard({
     : theme.colors.gray[7];
 
   return (
-    <Card shadow="md" p="lg">
+    <Card shadow="sm" p="lg" mb={20}>
       <Card.Section style={{ borderBottom: '1px solid teal' }}>
         <Image src={cover} height={160} alt={title} fit='cover' />
       </Card.Section>

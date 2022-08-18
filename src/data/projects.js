@@ -95,4 +95,28 @@ export default [
 
     `,
   },
+  {
+    title: "Bagaggio - Department Page",
+    cover: "/img/bagaggio-department-page-preview.webp",
+    link: "https://www.bagaggio.com.br/malas",
+    techs: [
+      'HTML', 'CSS', 'Javascript', 'VTEX'
+    ],
+    overview: 'Developed the redesign and optimization of the page, including changing filters and pagination. Also with Agência N1.',
+    fullDescription: `
+
+    `,
+  },
+  {
+    title: "Bagaggio - Product Page",
+    cover: "/img/bagaggio-product-page-preview.webp",
+    link: "https://www.bagaggio.com.br/mala-de-bordo-abs-4-rodas-suissewin-dinamarca-preta/p",
+    techs: [
+      'HTML', 'CSS', 'Javascript', 'VTEX'
+    ],
+    overview: 'Developed the redesign and optimization of the page.',
+    fullDescription: `
+
+    `,
+  },
 ]
