@@ -10,7 +10,12 @@ export default function Modal({ data, onClose }) {
       onClose={onClose}
       title={data.title}
     >
-      <a href={data.link} target='_blank'>See Project Live</a>
+      {data.link &&
+        <>
+          <br />
+          <a href={data.link} target='_blank'>See Project Live</a>
+        </>
+      }
       {data.repo &&
         <>
           <br />

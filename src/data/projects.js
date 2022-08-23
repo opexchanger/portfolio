@@ -119,4 +119,16 @@ export default [
 
     `,
   },
+  {
+    title: "BarberApp - Node.js API",
+    cover: "/img/api_cover.webp",
+    repo: "https://github.com/opexchanger/barber-app",
+    techs: [
+      'Node.js', 'PostgreSQL', 'Express', 'Sequelize'
+    ],
+    overview: 'The backend api for a scheduling application built back in 2020. It has access levels, basic CRUD commands for appointments and users, allows customer registration and password recuperation. It follows a MVC structure.',
+    fullDescription: `
+
+    `,
+  },
 ]
