@@ -126,7 +126,19 @@ export default [
     techs: [
       'Node.js', 'PostgreSQL', 'Express', 'Sequelize'
     ],
-    overview: 'The backend api for a scheduling application built back in 2020. It has access levels, basic CRUD commands for appointments and users, allows customer registration and password recuperation. It follows a MVC structure.',
+    overview: 'The REST API for a scheduling application built back in 2020. It has access levels, basic CRUD commands for appointments and users, allows customer registration and password recuperation. It follows a MVC structure.',
+    fullDescription: `
+
+    `,
+  },
+  {
+    title: "Natours - Node.js API",
+    cover: "/img/api_mongo_cover.webp",
+    repo: "https://github.com/opexchanger/natours",
+    techs: [
+      'Node.js', 'MongoDB', 'Express', 'Mongoose'
+    ],
+    overview: 'A REST API built along a bootcamp course on Node.Js with MongoDB.',
     fullDescription: `
 
     `,
